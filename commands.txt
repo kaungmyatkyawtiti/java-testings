@@ -1,0 +1,68 @@
+mvn -B archetype:generate -DgroupId=com.nottnott.project \
+  -DartifactId=maven-example-pj
+  -DarchetypeArtifactId=maven-archetype-archetype \
+  -DarchetypeGroupId=maven-archetype \
+
+mvn -B archetype:generate -DgroupId=com.nottnott.project \
+  -DartifactId=example-project \
+  -DarchetypeArtifactId=maven-archetype-quickstart \
+  -DinteractiveMode=false
+
+
+  {
+    -Dversion=1.0-SNAPSHOT \ ___will automatically default to 1.0-SNAPSHOT___
+    -DarchetypeGroupId=maven-archetype default (org.apache.maven.archetypes) ___no need for maven-archetype-quickstart___ 
+    -DarchetypeVersion=1.4 ___no need___ 
+  }
+
+for this error
+  {
+    java -jar target/java-example-testing-1.0-SNAPSHOT.jar
+    no main manifest attribute, in target/java-example-testing-1.0-SNAPSHOT.jar
+  }
+
+do this 
+{
+  <project xmlns="http://maven.apache.org/POM/4.0.0" 
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 
+                              http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+    
+    <groupId>com.github.kaungmyatkyawtiti</groupId>
+    <artifactId>java-example-testing</artifactId>
+    <packaging>jar</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <name>java-example-testing</name>
+    <url>http://maven.apache.org</url>
+
+    <dependencies>
+      <dependency>
+        <groupId>junit</groupId>
+        <artifactId>junit</artifactId>
+        <version>3.8.1</version>
+        <scope>test</scope>
+      </dependency>
+    </dependencies>
+
+    <!-- Add this build block -->
+    <build>
+      <plugins>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-jar-plugin</artifactId>
+          <version>3.3.0</version>
+          <configuration>
+            <archive>
+              <manifest>
+                <mainClass>com.github.kaungmyatkyawtiti.App</mainClass>
+              </manifest>
+            </archive>
+          </configuration>
+        </plugin>
+      </plugins>
+    </build>
+
+  </project>
+}
