@@ -1,6 +1,6 @@
 package com.nottnott.app.chapter3;
 
-public class StringDemo {
+public class VariableDemo {
   public static void main(String[] args) {
     String str = "kaung myat kyaw";
     String greet = "Hi \"hello\"";
