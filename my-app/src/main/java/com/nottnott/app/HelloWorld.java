@@ -14,5 +14,7 @@ public class HelloWorld {
     System.out.println("var c " + c);
     // a = "Hello";
     // System.out.println(a * "kmk");
+
+    System.out.println("this is testin in vscode");
   }
 }

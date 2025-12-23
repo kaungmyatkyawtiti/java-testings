@@ -11,6 +11,7 @@ public class ArrayDemo {
     for (int i = 0; i < ages.length; i++) {
       totalAge += ages[i];
     }
+    System.out.println();
     System.out.println("totalAge " + totalAge);
   }
 }
