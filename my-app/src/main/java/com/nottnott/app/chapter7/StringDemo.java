@@ -1,5 +1,9 @@
 package com.nottnott.app.chapter7;
 
+// import com.nottnott.app.chapter8.Parent;
+
+// import com.nottnott.app.chapter8.Data;
+
 public class StringDemo {
   public static void main(String[] args) {
     String str = "Hello World";
@@ -17,5 +21,11 @@ public class StringDemo {
     String str4 = null;
     // System.out.println("equals " + (str4.equals("Hello World")));
     System.out.println("equals " + ("Hello World".equals(str4)));
+
+    // Data data = new Data();
+    // data.value++;
+
+    // Parent parent = new Parent();
+    // Parent.data++;
   }
 }

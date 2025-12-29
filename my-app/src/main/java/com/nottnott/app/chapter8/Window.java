@@ -17,5 +17,11 @@ public class Window {
     Window98 win = new Window98();
     win.startComputer();
     win.feature();
+
+    Data data = new Data();
+    data.value = 10;
+
+    Parent parent = new Parent();
+    parent.data = 100;
   }
 }
