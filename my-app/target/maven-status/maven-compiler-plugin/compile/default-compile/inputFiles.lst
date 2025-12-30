@@ -1,5 +1,11 @@
 /home/nott_eucalyptus/MyTestingProjects/java_testings/my-app/src/main/java/com/nottnott/app/App.java
 /home/nott_eucalyptus/MyTestingProjects/java_testings/my-app/src/main/java/com/nottnott/app/HelloWorld.java
+/home/nott_eucalyptus/MyTestingProjects/java_testings/my-app/src/main/java/com/nottnott/app/chapter10/ChainedException.java
+/home/nott_eucalyptus/MyTestingProjects/java_testings/my-app/src/main/java/com/nottnott/app/chapter10/CustomExceptionDemo.java
+/home/nott_eucalyptus/MyTestingProjects/java_testings/my-app/src/main/java/com/nottnott/app/chapter10/ExceptionDemo.java
+/home/nott_eucalyptus/MyTestingProjects/java_testings/my-app/src/main/java/com/nottnott/app/chapter10/TryCatchDemo.java
+/home/nott_eucalyptus/MyTestingProjects/java_testings/my-app/src/main/java/com/nottnott/app/chapter10/UnCaughtExceptionDemo.java
+/home/nott_eucalyptus/MyTestingProjects/java_testings/my-app/src/main/java/com/nottnott/app/chapter10/UnCheckedException.java
 /home/nott_eucalyptus/MyTestingProjects/java_testings/my-app/src/main/java/com/nottnott/app/chapter3/ArrayDemo.java
 /home/nott_eucalyptus/MyTestingProjects/java_testings/my-app/src/main/java/com/nottnott/app/chapter3/BooleanDemo.java
 /home/nott_eucalyptus/MyTestingProjects/java_testings/my-app/src/main/java/com/nottnott/app/chapter3/CharacterDemo.java
@@ -80,8 +86,10 @@
 /home/nott_eucalyptus/MyTestingProjects/java_testings/my-app/src/main/java/com/nottnott/app/chapter8/Shadow.java
 /home/nott_eucalyptus/MyTestingProjects/java_testings/my-app/src/main/java/com/nottnott/app/chapter8/Teacher.java
 /home/nott_eucalyptus/MyTestingProjects/java_testings/my-app/src/main/java/com/nottnott/app/chapter8/Window.java
+/home/nott_eucalyptus/MyTestingProjects/java_testings/my-app/src/main/java/com/nottnott/app/chapter9/DefaultDemo.java
 /home/nott_eucalyptus/MyTestingProjects/java_testings/my-app/src/main/java/com/nottnott/app/chapter9/Flyable.java
 /home/nott_eucalyptus/MyTestingProjects/java_testings/my-app/src/main/java/com/nottnott/app/chapter9/InterfaceDemo.java
 /home/nott_eucalyptus/MyTestingProjects/java_testings/my-app/src/main/java/com/nottnott/app/chapter9/InterfaceInheritance.java
 /home/nott_eucalyptus/MyTestingProjects/java_testings/my-app/src/main/java/com/nottnott/app/chapter9/PackageDemo.java
 /home/nott_eucalyptus/MyTestingProjects/java_testings/my-app/src/main/java/com/nottnott/app/chapter9/PaymentGateway.java
+/home/nott_eucalyptus/MyTestingProjects/java_testings/my-app/src/main/java/com/nottnott/app/chapter9/PrivateMethodDemo.java
