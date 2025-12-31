@@ -8,7 +8,15 @@
 /home/nott_eucalyptus/MyTestingProjects/java_testings/my-app/src/main/java/com/nottnott/app/chapter10/TryCatchDemo.java
 /home/nott_eucalyptus/MyTestingProjects/java_testings/my-app/src/main/java/com/nottnott/app/chapter10/UnCaughtExceptionDemo.java
 /home/nott_eucalyptus/MyTestingProjects/java_testings/my-app/src/main/java/com/nottnott/app/chapter10/UnCheckedException.java
+/home/nott_eucalyptus/MyTestingProjects/java_testings/my-app/src/main/java/com/nottnott/app/chapter11/CorrectProducerConsumer.java
+/home/nott_eucalyptus/MyTestingProjects/java_testings/my-app/src/main/java/com/nottnott/app/chapter11/IncorrectProducerConsumer.java
+/home/nott_eucalyptus/MyTestingProjects/java_testings/my-app/src/main/java/com/nottnott/app/chapter11/SynchronizationProblem.java
+/home/nott_eucalyptus/MyTestingProjects/java_testings/my-app/src/main/java/com/nottnott/app/chapter11/SynchronizationWithLock.java
 /home/nott_eucalyptus/MyTestingProjects/java_testings/my-app/src/main/java/com/nottnott/app/chapter11/ThreadDemo.java
+/home/nott_eucalyptus/MyTestingProjects/java_testings/my-app/src/main/java/com/nottnott/app/chapter11/ThreadDemoWithRunnable.java
+/home/nott_eucalyptus/MyTestingProjects/java_testings/my-app/src/main/java/com/nottnott/app/chapter11/VirtualThreadDemo.java
+/home/nott_eucalyptus/MyTestingProjects/java_testings/my-app/src/main/java/com/nottnott/app/chapter29/SemaphoreDemo.java
+/home/nott_eucalyptus/MyTestingProjects/java_testings/my-app/src/main/java/com/nottnott/app/chapter29/SynchronizationWithSemaphore.java
 /home/nott_eucalyptus/MyTestingProjects/java_testings/my-app/src/main/java/com/nottnott/app/chapter3/ArrayDemo.java
 /home/nott_eucalyptus/MyTestingProjects/java_testings/my-app/src/main/java/com/nottnott/app/chapter3/BooleanDemo.java
 /home/nott_eucalyptus/MyTestingProjects/java_testings/my-app/src/main/java/com/nottnott/app/chapter3/CharacterDemo.java

@@ -1,0 +1,112 @@
+2025-12-31 16:19:24
+Full thread dump OpenJDK 64-Bit Server VM (25.0.1+8 mixed mode, sharing):
+
+Threads class SMR info:
+_java_thread_list=0x00007f5fb8002290, length=13, elements={
+0x00007f601402afa0, 0x00007f6014145e40, 0x00007f6014146e80, 0x00007f60141482c0,
+0x00007f6014149be0, 0x00007f601414b460, 0x00007f601414d2e0, 0x00007f601414ecd0,
+0x00007f601415b0d0, 0x00007f601415e2a0, 0x00007f6014172220, 0x00007f6014173610,
+0x00007f5fb8000f40
+}
+
+"main" #3 [86896] prio=5 os_prio=0 cpu=56.22ms elapsed=246.00s tid=0x00007f601402afa0 nid=86896 in Object.wait()  [0x00007f601ad09000]
+   java.lang.Thread.State: WAITING (on object monitor)
+	at java.lang.Object.wait0(java.base@25.0.1/Native Method)
+	- waiting on <0x000000071a624ec0> (a com.nottnott.app.chapter11.IncThread)
+	at java.lang.Object.wait(java.base@25.0.1/Object.java:389)
+	at java.lang.Thread.join(java.base@25.0.1/Thread.java:1887)
+	- locked <0x000000071a624ec0> (a com.nottnott.app.chapter11.IncThread)
+	at java.lang.Thread.join(java.base@25.0.1/Thread.java:1963)
+	at com.nottnott.app.chapter11.SynchronizationWithLock.main(SynchronizationWithLock.java:45)
+
+"Reference Handler" #15 [86908] daemon prio=10 os_prio=0 cpu=0.53ms elapsed=245.97s tid=0x00007f6014145e40 nid=86908 waiting on condition  [0x00007f5fe9ffe000]
+   java.lang.Thread.State: RUNNABLE
+	at java.lang.ref.Reference.waitForReferencePendingList(java.base@25.0.1/Native Method)
+	at java.lang.ref.Reference.processPendingReferences(java.base@25.0.1/Reference.java:246)
+	at java.lang.ref.Reference$ReferenceHandler.run(java.base@25.0.1/Reference.java:208)
+
+"Finalizer" #16 [86909] daemon prio=8 os_prio=0 cpu=0.39ms elapsed=245.97s tid=0x00007f6014146e80 nid=86909 in Object.wait()  [0x00007f5ff81c1000]
+   java.lang.Thread.State: WAITING (on object monitor)
+	at java.lang.Object.wait0(java.base@25.0.1/Native Method)
+	- waiting on <0x000000071a602358> (a java.lang.ref.ReferenceQueue$Lock)
+	at java.lang.Object.wait(java.base@25.0.1/Object.java:389)
+	at java.lang.Object.wait(java.base@25.0.1/Object.java:351)
+	at java.lang.ref.ReferenceQueue.remove0(java.base@25.0.1/ReferenceQueue.java:137)
+	at java.lang.ref.ReferenceQueue.remove(java.base@25.0.1/ReferenceQueue.java:215)
+	- locked <0x000000071a602358> (a java.lang.ref.ReferenceQueue$Lock)
+	at java.lang.ref.Finalizer$FinalizerThread.run(java.base@25.0.1/Finalizer.java:165)
+
+"Signal Dispatcher" #17 [86910] daemon prio=9 os_prio=0 cpu=0.68ms elapsed=245.97s tid=0x00007f60141482c0 nid=86910 waiting on condition  [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+"Service Thread" #18 [86911] daemon prio=9 os_prio=0 cpu=11.33ms elapsed=245.97s tid=0x00007f6014149be0 nid=86911 runnable  [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+"Monitor Deflation Thread" #19 [86912] daemon prio=9 os_prio=0 cpu=41.46ms elapsed=245.97s tid=0x00007f601414b460 nid=86912 runnable  [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+"C2 CompilerThread0" #20 [86913] daemon prio=9 os_prio=0 cpu=19.57ms elapsed=245.97s tid=0x00007f601414d2e0 nid=86913 waiting on condition  [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+   No compile task
+
+"C1 CompilerThread0" #28 [86914] daemon prio=9 os_prio=0 cpu=11.80ms elapsed=245.97s tid=0x00007f601414ecd0 nid=86914 waiting on condition  [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+   No compile task
+
+"Notification Thread" #32 [86915] daemon prio=9 os_prio=0 cpu=0.17ms elapsed=245.96s tid=0x00007f601415b0d0 nid=86915 runnable  [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+"Common-Cleaner" #33 [86916] daemon prio=8 os_prio=0 cpu=1.16ms elapsed=245.96s tid=0x00007f601415e2a0 nid=86916 in Object.wait()  [0x00007f5fe969d000]
+   java.lang.Thread.State: TIMED_WAITING (on object monitor)
+	at java.lang.Object.wait0(java.base@25.0.1/Native Method)
+	- waiting on <0x000000071a612678> (a java.lang.ref.ReferenceQueue$Lock)
+	at java.lang.Object.wait(java.base@25.0.1/Object.java:389)
+	at java.lang.ref.ReferenceQueue.remove0(java.base@25.0.1/ReferenceQueue.java:123)
+	at java.lang.ref.ReferenceQueue.remove(java.base@25.0.1/ReferenceQueue.java:201)
+	- locked <0x000000071a612678> (a java.lang.ref.ReferenceQueue$Lock)
+	at jdk.internal.ref.CleanerImpl.run(java.base@25.0.1/CleanerImpl.java:146)
+	at java.lang.Thread.runWith(java.base@25.0.1/Thread.java:1487)
+	at java.lang.Thread.run(java.base@25.0.1/Thread.java:1474)
+	at jdk.internal.misc.InnocuousThread.run(java.base@25.0.1/InnocuousThread.java:148)
+
+"Thread-1" #35 [86920] prio=5 os_prio=0 cpu=0.84ms elapsed=245.94s tid=0x00007f6014172220 nid=86920 waiting on condition  [0x00007f5fe929d000]
+   java.lang.Thread.State: WAITING (parking)
+	at jdk.internal.misc.Unsafe.park(java.base@25.0.1/Native Method)
+	- parking to wait for  <0x000000071a623870> (a java.util.concurrent.locks.ReentrantLock$NonfairSync)
+	at java.util.concurrent.locks.LockSupport.park(java.base@25.0.1/LockSupport.java:223)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer.acquire(java.base@25.0.1/AbstractQueuedSynchronizer.java:790)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer.acquire(java.base@25.0.1/AbstractQueuedSynchronizer.java:1030)
+	at java.util.concurrent.locks.ReentrantLock$Sync.lock(java.base@25.0.1/ReentrantLock.java:154)
+	at java.util.concurrent.locks.ReentrantLock.lock(java.base@25.0.1/ReentrantLock.java:323)
+	at com.nottnott.app.chapter11.IncThread.run(SynchronizationWithLock.java:21)
+
+"Thread-2" #36 [86921] prio=5 os_prio=0 cpu=0.54ms elapsed=245.94s tid=0x00007f6014173610 nid=86921 waiting on condition  [0x00007f5fe919d000]
+   java.lang.Thread.State: WAITING (parking)
+	at jdk.internal.misc.Unsafe.park(java.base@25.0.1/Native Method)
+	- parking to wait for  <0x000000071a623870> (a java.util.concurrent.locks.ReentrantLock$NonfairSync)
+	at java.util.concurrent.locks.LockSupport.park(java.base@25.0.1/LockSupport.java:223)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer.acquire(java.base@25.0.1/AbstractQueuedSynchronizer.java:790)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer.acquire(java.base@25.0.1/AbstractQueuedSynchronizer.java:1030)
+	at java.util.concurrent.locks.ReentrantLock$Sync.lock(java.base@25.0.1/ReentrantLock.java:154)
+	at java.util.concurrent.locks.ReentrantLock.lock(java.base@25.0.1/ReentrantLock.java:323)
+	at com.nottnott.app.chapter11.IncThread.run(SynchronizationWithLock.java:21)
+
+"Attach Listener" #37 [88042] daemon prio=9 os_prio=0 cpu=1.47ms elapsed=0.12s tid=0x00007f5fb8000f40 nid=88042 waiting on condition  [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+"VM Thread" os_prio=0 cpu=2.15ms elapsed=245.98s tid=0x00007f601413c2c0 nid=86907 runnable  
+
+"VM Periodic Task Thread" os_prio=0 cpu=3.07ms elapsed=245.98s tid=0x00007f601412bba0 nid=86906 waiting on condition  
+
+"G1 Service" os_prio=0 cpu=16.53ms elapsed=245.99s tid=0x00007f60141155b0 nid=86901 runnable  
+
+"G1 Refine#0" os_prio=0 cpu=0.18ms elapsed=245.99s tid=0x00007f60141143c0 nid=86900 runnable  
+
+"G1 Conc#0" os_prio=0 cpu=0.07ms elapsed=246.00s tid=0x00007f60140ae250 nid=86899 runnable  
+
+"G1 Main Marker" os_prio=0 cpu=0.14ms elapsed=246.00s tid=0x00007f60140ad080 nid=86898 runnable  
+
+"GC Thread#0" os_prio=0 cpu=0.19ms elapsed=246.00s tid=0x00007f6014094880 nid=86897 runnable  
+
+JNI global refs: 17, weak refs: 0
+
