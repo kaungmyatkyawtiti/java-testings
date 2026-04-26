@@ -22,7 +22,7 @@ class IncThread extends Thread {
 
       data.value++;
 
-      // this.lock.unlock();
+      this.lock.unlock();
     }
   }
 }

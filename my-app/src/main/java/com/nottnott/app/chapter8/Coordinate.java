@@ -15,7 +15,7 @@ class TwoD {
 }
 
 class ThreeD extends TwoD {
-  int z;
+  private int z;
 
   public ThreeD(int x, int y, int z) {
     super(x, y);
@@ -23,6 +23,7 @@ class ThreeD extends TwoD {
     System.out.println("ThreeD constructor");
   }
 
+  @Override
   void print() {
     super.print();
     System.out.println("z " + this.z);

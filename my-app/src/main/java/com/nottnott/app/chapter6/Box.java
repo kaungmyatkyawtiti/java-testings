@@ -4,16 +4,17 @@ package com.nottnott.app.chapter6;
  * BoxDemo
  */
 public class Box {
-  int width, height, depth;
 
-  int volume() {
-    return this.width * this.height * this.depth;
-  }
+  private int width, height, depth;
 
   void setDimension(int width, int height, int depth) {
     this.width = width;
     this.height = height;
     this.depth = depth;
+  }
+
+  int volume() {
+    return this.width * this.height * this.depth;
   }
 
   public static void main(String[] args) {

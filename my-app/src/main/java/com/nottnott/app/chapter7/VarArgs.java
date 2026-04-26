@@ -5,6 +5,7 @@ import java.util.ArrayList;
 public class VarArgs {
   static int max(int... values) {
     int maxValue = values[0];
+
     for (int i = 1; i < values.length; i++) {
       if (maxValue < values[i]) {
         maxValue = values[i];

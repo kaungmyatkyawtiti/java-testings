@@ -22,8 +22,8 @@ class IncThread extends Thread {
         data.value++;
 
         this.semaphore.release();
-      } catch (InterruptedException e) {
-        e.printStackTrace();
+      } catch (InterruptedException ie) {
+        ie.printStackTrace();
       }
     }
   }

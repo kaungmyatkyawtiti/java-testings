@@ -67,9 +67,10 @@ public class CustomExceptionDemo {
       System.out.println("CreditException " + ce.getMessage());
     } catch (DebitException de) {
       System.out.println("DebitException " + de.getMessage());
-    } catch (BusinessLogicException be) {
-      System.out.println("BusinessLogicException " + be.getMessage());
     }
+    // } catch (BusinessLogicException be) {
+    // System.out.println("BusinessLogicException " + be.getMessage());
+    // }
     System.out.println("account " + account);
   }
 }

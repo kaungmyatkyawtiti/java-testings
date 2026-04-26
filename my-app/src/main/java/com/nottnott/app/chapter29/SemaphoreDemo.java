@@ -18,8 +18,8 @@ class PrinterThread extends Thread {
         Thread.sleep(1500);
         System.out.println("Thread " + this.name + " => " + i);
         this.sem.release();
-      } catch (Exception e) {
-        e.printStackTrace();
+      } catch (InterruptedException ie) {
+        ie.printStackTrace();
       }
     }
   }
