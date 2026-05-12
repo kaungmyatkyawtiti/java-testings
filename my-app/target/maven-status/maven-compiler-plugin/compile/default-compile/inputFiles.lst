@@ -113,8 +113,17 @@
 /home/nott_eucalyptus/MyTestingProjects/java_testings/my-app/src/main/java/com/nottnott/app/chapter23/WriteFileWithBufferOutputStream.java
 /home/nott_eucalyptus/MyTestingProjects/java_testings/my-app/src/main/java/com/nottnott/app/chapter23/WriteFileWithChannelDemo.java
 /home/nott_eucalyptus/MyTestingProjects/java_testings/my-app/src/main/java/com/nottnott/app/chapter23/WriteFileWithMappedBuffer.java
+/home/nott_eucalyptus/MyTestingProjects/java_testings/my-app/src/main/java/com/nottnott/app/chapter24/EchoClient.java
+/home/nott_eucalyptus/MyTestingProjects/java_testings/my-app/src/main/java/com/nottnott/app/chapter24/EchoServer.java
 /home/nott_eucalyptus/MyTestingProjects/java_testings/my-app/src/main/java/com/nottnott/app/chapter24/GetIPDemo.java
+/home/nott_eucalyptus/MyTestingProjects/java_testings/my-app/src/main/java/com/nottnott/app/chapter24/UdpClient.java
+/home/nott_eucalyptus/MyTestingProjects/java_testings/my-app/src/main/java/com/nottnott/app/chapter24/UdpServer.java
+/home/nott_eucalyptus/MyTestingProjects/java_testings/my-app/src/main/java/com/nottnott/app/chapter24/UrlDemo.java
 /home/nott_eucalyptus/MyTestingProjects/java_testings/my-app/src/main/java/com/nottnott/app/chapter24/WhoIsServerDemo.java
+/home/nott_eucalyptus/MyTestingProjects/java_testings/my-app/src/main/java/com/nottnott/app/chapter27/CheckBoxDemo.java
+/home/nott_eucalyptus/MyTestingProjects/java_testings/my-app/src/main/java/com/nottnott/app/chapter27/CommonFrame.java
+/home/nott_eucalyptus/MyTestingProjects/java_testings/my-app/src/main/java/com/nottnott/app/chapter27/UiDemo.java
+/home/nott_eucalyptus/MyTestingProjects/java_testings/my-app/src/main/java/com/nottnott/app/chapter27/WindowDemo.java
 /home/nott_eucalyptus/MyTestingProjects/java_testings/my-app/src/main/java/com/nottnott/app/chapter29/AtomicDemo.java
 /home/nott_eucalyptus/MyTestingProjects/java_testings/my-app/src/main/java/com/nottnott/app/chapter29/CallableFutureDemo.java
 /home/nott_eucalyptus/MyTestingProjects/java_testings/my-app/src/main/java/com/nottnott/app/chapter29/CountDownLatchDemo.java
