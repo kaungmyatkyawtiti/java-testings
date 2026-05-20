@@ -122,7 +122,6 @@
 /home/nott_eucalyptus/MyTestingProjects/java_testings/my-app/src/main/java/com/nottnott/app/chapter24/WhoIsServerDemo.java
 /home/nott_eucalyptus/MyTestingProjects/java_testings/my-app/src/main/java/com/nottnott/app/chapter27/CheckBoxDemo.java
 /home/nott_eucalyptus/MyTestingProjects/java_testings/my-app/src/main/java/com/nottnott/app/chapter27/CommonFrame.java
-/home/nott_eucalyptus/MyTestingProjects/java_testings/my-app/src/main/java/com/nottnott/app/chapter27/UiDemo.java
 /home/nott_eucalyptus/MyTestingProjects/java_testings/my-app/src/main/java/com/nottnott/app/chapter27/WindowDemo.java
 /home/nott_eucalyptus/MyTestingProjects/java_testings/my-app/src/main/java/com/nottnott/app/chapter29/AtomicDemo.java
 /home/nott_eucalyptus/MyTestingProjects/java_testings/my-app/src/main/java/com/nottnott/app/chapter29/CallableFutureDemo.java
@@ -236,3 +235,4 @@
 /home/nott_eucalyptus/MyTestingProjects/java_testings/my-app/src/main/java/com/nottnott/app/chapter9/PackageDemo.java
 /home/nott_eucalyptus/MyTestingProjects/java_testings/my-app/src/main/java/com/nottnott/app/chapter9/PaymentGateway.java
 /home/nott_eucalyptus/MyTestingProjects/java_testings/my-app/src/main/java/com/nottnott/app/chapter9/PrivateMethodDemo.java
+/home/nott_eucalyptus/MyTestingProjects/java_testings/my-app/src/main/java/com/nottnott/app/dao/BaseDemo.java
