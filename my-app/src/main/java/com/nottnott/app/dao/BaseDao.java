@@ -11,7 +11,7 @@ public class BaseDao {
       this.conn = DriverManager.getConnection(
           "jdbc:mariadb://localhost:3306/javase6_sql",
           "root",
-          "kaungmyatkyaw@2003");
+          "kaungmyatkyaw22");
       System.out.println("MariaDB connected successfully");
     } catch (Exception e) {
       e.printStackTrace();
