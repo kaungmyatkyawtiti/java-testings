@@ -235,7 +235,13 @@
 /home/nottnott/Testings/java_testings/my-app/src/main/java/com/nottnott/app/chapter9/PackageDemo.java
 /home/nottnott/Testings/java_testings/my-app/src/main/java/com/nottnott/app/chapter9/PaymentGateway.java
 /home/nottnott/Testings/java_testings/my-app/src/main/java/com/nottnott/app/chapter9/PrivateMethodDemo.java
+/home/nottnott/Testings/java_testings/my-app/src/main/java/com/nottnott/app/dao/ActorDao.java
 /home/nottnott/Testings/java_testings/my-app/src/main/java/com/nottnott/app/dao/BaseDao.java
 /home/nottnott/Testings/java_testings/my-app/src/main/java/com/nottnott/app/dao/MovieDao.java
+/home/nottnott/Testings/java_testings/my-app/src/main/java/com/nottnott/app/dao/entity/Actor.java
 /home/nottnott/Testings/java_testings/my-app/src/main/java/com/nottnott/app/dao/entity/Movie.java
+/home/nottnott/Testings/java_testings/my-app/src/main/java/com/nottnott/app/dao/impl/ActorDaoImpl.java
 /home/nottnott/Testings/java_testings/my-app/src/main/java/com/nottnott/app/dao/impl/MovieDaoImpl.java
+/home/nottnott/Testings/java_testings/my-app/src/main/java/com/nottnott/app/oopdesign/principle/LooseCoupling.java
+/home/nottnott/Testings/java_testings/my-app/src/main/java/com/nottnott/app/oopdesign/principle/TightCoupling.java
+/home/nottnott/Testings/java_testings/my-app/src/main/java/com/nottnott/app/unitest/Total.java

@@ -7,12 +7,16 @@ public class Stack {
   int top = -1;
   int[] stack = new int[10];
 
-  void push(int item) {
+  public void push(int item) {
     this.stack[++this.top] = item;
   }
 
-  int pop() {
+  public int pop() {
     return this.stack[this.top--];
+  }
+
+  public int size() {
+    return this.top + 1;
   }
 
   public static void main(String[] args) {
